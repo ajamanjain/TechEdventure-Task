@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style> 
+    .div1 {
+      width: 55%;
+      border: 1px solid;
+      box-sizing: border-box;
+    }
+
+    .div2 {
+      float: right;
+      width: 36.5%;
+      height: 80%; 
+      position: absolute;
+      top: 75px;
+      right: 10px; 
+      border: 1px solid ;
+      box-sizing: border-box;
+    }
+
+    .box1 img {
+    object-fit: cover;
+}
+
+button {
+  float: right; 
+  position: absolute;
+  top: 1200px;
+  right: 20px; 
+  width: 200px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid;
+  color: white;
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width:36%;
+  height: 75%; 
+  float: right; 
+  position: absolute;
+  top: 630px;
+  right: 15px; 
+  margin-left:10px;
+  margin-top:10px; 
+}
+
+
+th{
+  border: 1px solid grey;
+  background-color:springgreen;
+  text-align: left;
+  padding: 8px;
+}
+
+
+td{
+  border: 1px solid grey;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+</style>    
+</head>
+<body>
+
+<nav class="navbar navbar-default" style="background-color: greenyellow">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Nature</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#" style="background-color: greenyellow">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </div>
+</nav>
+ 
+
+<div class="div1">
+    <div class="wrapper">
+       <div class="box box1"><img src="https://images.unsplash.com/photo-1597890739440-63df10022109?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDExfGJEbzQ4Y1Vod25ZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Nature"></div>
+    </div>
+</div>
+
+<div class="div2">
+   <b><h2>Hello! Welcome</h2>
+    <p><b>My name is Aman Jain.<br>
+        I am pursuing MCA from KIET Group of Institutions.<br>
+        I am the Placement Coordinator and work as a team leader.<br>
+        I am learning Web Technologies.<br>
+        And I am still unplaced.
+    </p>
+  </b>
+</div>
+
+<table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+    <tr>
+      <td>Ernst Handel</td>
+      <td>Roland Mendel</td>
+      <td>Austria</td>
+    </tr>
+    <tr>
+      <td>Island Trading</td>
+      <td>Helen Bennett</td>
+      <td>UK</td>
+    </tr>
+  </table>
+
+  <button class="button button1">NEXT</button>
+
+</body>
+</html>
